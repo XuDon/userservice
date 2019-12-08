@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: application
+      profile: UserService_Client
+      uri: http://localhost:9001
+      label: master
