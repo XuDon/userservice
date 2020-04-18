@@ -1,0 +1,12 @@
+server:
+    port: 9003
+
+spring:
+    application:
+        name: UserService1
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:9002/eureka/
+        register-with-eureka: true

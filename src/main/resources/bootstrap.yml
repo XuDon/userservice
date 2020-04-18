@@ -1,7 +1,22 @@
-spring:
-  cloud:
-    config:
-      name: application
-      profile: UserService_Client
-      uri: http://localhost:9001
-      label: master
+#spring:
+#  cloud:
+#    config:
+#      name: application
+#      profile: UserService_Client
+#      uri: http://localhost:9001
+#      label: master
+
+
+#      server:
+#        port: 9003
+#
+#      spring:
+#        application:
+#          name: UserService_Client
+#        profiles: UserService_Client
+#
+#      eureka:
+#        client:
+#          serviceUrl:
+#            defaultZone: http://localhost:9002/eureka/
+#          register-with-eureka: true
